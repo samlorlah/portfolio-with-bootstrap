@@ -1,0 +1,37 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e5e5e5;
+}
+
+#logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+#main-header-section {
+  border-radius: 0 0 0 100px;
+}
+
+#header-section {
+  background-image: url(./images/background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#header-section h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #091e42;
+}
+
+#header-section p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  width: 70%;
+}
