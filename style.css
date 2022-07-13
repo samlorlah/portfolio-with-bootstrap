@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #e5e5e5;
+  height: 100vh;
 }
 
 #logo {
@@ -89,6 +90,7 @@ body {
 
 #about {
   border-radius: 0 100px 0 0;
+  padding-bottom: 200px;
 }
 
 #h2-about {
@@ -107,17 +109,45 @@ body {
   align-items: center;
   color: #344563;
   height: 72px;
-  border-bottom: 1px solid #DFE1E6;;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .dropdown-toggle::after {
   margin-left: auto;
 }
 
-#trait>li{
+#trait > li {
   min-width: 122px;
 }
 
 .traitImg {
-  width:48px;
+  width: 48px;
+}
+
+#contact {
+  border-radius: 100px 0 0 0;
+  position: relative;
+  top: -100px;
+}
+
+#contact h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+#contact p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+#contact button {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
