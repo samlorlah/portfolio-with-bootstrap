@@ -28,10 +28,17 @@ body {
   color: #091e42;
 }
 
-#header-section p {
+#header-section {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #344563;
   width: 70%;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
