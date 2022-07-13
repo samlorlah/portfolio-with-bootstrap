@@ -86,3 +86,38 @@ body {
   font-size: 12px;
   line-height: 16px;
 }
+
+#about {
+  border-radius: 0 100px 0 0;
+}
+
+#h2-about {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.dropdown-toggle {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  height: 72px;
+  border-bottom: 1px solid #DFE1E6;;
+}
+
+.dropdown-toggle::after {
+  margin-left: auto;
+}
+
+#trait>li{
+  min-width: 122px;
+}
+
+.traitImg {
+  width:48px;
+}
