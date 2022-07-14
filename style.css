@@ -20,6 +20,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  width: 70%;
 }
 
 #header-section h1 {
@@ -27,14 +32,6 @@ body {
   font-size: 48px;
   line-height: 60px;
   color: #091e42;
-}
-
-#header-section {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #344563;
-  width: 70%;
 }
 
 .connect {
